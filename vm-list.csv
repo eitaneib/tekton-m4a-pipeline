@@ -1,2 +1,3 @@
 Name,VM ID,Source,OS,Intent,Template
 tomcat-server,tomcat-1,my-ce-src,Linux,Image
+helloworld,java-helloworld,my-ce-src,Linux,Image
