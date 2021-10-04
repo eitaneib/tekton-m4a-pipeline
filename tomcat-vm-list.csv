@@ -1,0 +1,2 @@
+Name,VM ID,Source,OS,Intent,AppType,Template
+tomcat-petclinic-test,petclinic-springboot,my-ce-src,Linux,Image,tomcat
