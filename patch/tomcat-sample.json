@@ -1,0 +1,4 @@
+[
+    {"op": "replace", "path": "/tomcatServers/0/catalinaBase", "value": "/opt/tomcat/testing"},
+    {"op": "add", "path": "/tomcatServers/0/logPaths/-", "value": "/opt/apache/tomcat/logs"}
+]
