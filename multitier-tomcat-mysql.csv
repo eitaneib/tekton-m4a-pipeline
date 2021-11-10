@@ -1,0 +1,3 @@
+Name,VM ID,Source,OS,Intent,AppType,Template
+petclinic-tomcat,petclinic-springboot,my-ce-src,Linux,Image,tomcat
+petclinic-mysql,petclinic-mysql,my-ce-src,Linux,ImageAndData,system,mysql.yaml
