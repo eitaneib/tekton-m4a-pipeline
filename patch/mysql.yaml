@@ -1,9 +1,14 @@
 volumes:
-- existingPvc:
-    name: my-pvc
-  deploymentPvcName: existing-mysql-pvc
+- deploymentPvcName: opt-pvc
   folders:
-  - /var/lib/my-lib
+  - /opt
+  newPvc:
+    spec:
+      accessModes:
+      - ReadWriteOnce
+      resources:
+        requests:
+          storage: 10G
 - deploymentPvcName: mysql-pvc
   folders:
   - /var/lib/mysql
