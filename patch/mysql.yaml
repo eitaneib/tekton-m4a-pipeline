@@ -1,4 +1,7 @@
 volumes:
+- existingPvc:
+  name: my-pvc
+  deploymentPvcName: existing-mysql-pvc
 - deploymentPvcName: mysql-pvc
   folders:
   - /var/lib/mysql
